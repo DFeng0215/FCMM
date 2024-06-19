@@ -1,10 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
-from scipy.optimize import linear_sum_assignment
-
 
 def initialize_matrices(n, q, c):
     """初始化子群集隸屬度矩陣 Y 和最終群集隸屬度矩陣 Z"""
